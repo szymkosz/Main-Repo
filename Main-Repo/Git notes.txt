@@ -29,3 +29,4 @@ git merge clean_up	## merge branch 'clean_up' to current branch
 git branch -d <branch name>	## Delete a branch
 
 git push
+git push
