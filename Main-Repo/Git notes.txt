@@ -1,0 +1,31 @@
+Git notes
+
+
+Commands:
+
+git init		## Initialize a Git repository
+git status		## Check current state of project
+git add <fileName>	## Add fileName to staging area (Tell Git to start
+			## tracking changes made to fileName)
+git commit -m "message"	## Store staged changes
+git log			## Chronological log of all committed changes
+git remote add origin https...	## Add a remote repository (to push changes
+				## to GitHub servers; name is origin)
+git push -u origin master	## Origin is name of remote
+				## Default local branch is master
+				## -u tell Git to remember paramaters for later
+git pull origin master		## Check for changes and pull down any new changes
+git diff HEAD		## difference between last commit and remote
+			## HEAD pointer refers to most recent commit
+git diff -- staged	## see the changes you just staged (need to stage first)
+git reset <target>	## unstage files
+git checkout -- <target>	## revert file status to last commit
+git branch clean_up	## create branch named clean_up
+git checkout clean_up	## switch branches
+git rm <target>		## stage removal of file(s) 
+			## (make sure to commit and switch back
+			## to desired branch)
+git merge clean_up	## merge branch 'clean_up' to current branch
+git branch -d <branch name>	## Delete a branch
+
+git push
