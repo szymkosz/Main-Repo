@@ -13,3 +13,7 @@ But
 It's not enough for me. What if after I have branched, I want to keep both branches without merging yet?
 
 How will it handle that?
+
+So far I can't tell if Git pushed both branches to Github. It seems my new branch is only stored locally.
+That is fine, I guess. My next bit of curiosity lies with finding out what happens when I close files and Terminal.
+Will I lose my progress on anything?
