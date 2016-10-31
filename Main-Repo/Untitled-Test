@@ -5,3 +5,11 @@ This is the main part of my story and I want to save it.
 Let's continue our experiment. Let's pretend that I just thought of something new. A new idea, let's say.
 But I don't want to lose the initial work and train of thought I had. So I created a branch on Git and now I am
 continuing on my new tangent. Fine. Tangent is done. I want to see how Git handles me switching branches.
+
+So Git will actively just change my open files. Live. That's cool.
+
+But
+
+It's not enough for me. What if after I have branched, I want to keep both branches without merging yet?
+
+How will it handle that?
