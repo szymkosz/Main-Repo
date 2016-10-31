@@ -17,3 +17,6 @@ How will it handle that?
 So far I can't tell if Git pushed both branches to Github. It seems my new branch is only stored locally.
 That is fine, I guess. My next bit of curiosity lies with finding out what happens when I close files and Terminal.
 Will I lose my progress on anything?
+
+Update: everything is still here. Cool. This is all still on my second branch. My file on the master branch is still empty.
+I'm going to now merge my branches.
